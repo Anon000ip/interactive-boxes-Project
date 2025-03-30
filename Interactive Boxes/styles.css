@@ -1,0 +1,155 @@
+/* === Base Styles === */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  color: #2c7a7b;
+  margin-bottom: 20px;
+}
+
+/* === Bundle Styles === */
+.bundle {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.bundle:hover {
+  border-color: #2c7a7b;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bundle.selected {
+  border-color: #2c7a7b;
+  background: #e6f7f8;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.bundle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bundle-label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.bundle-price {
+  font-size: 16px;
+  color: #555;
+}
+
+.discount {
+  color: #2c7a7b;
+  font-weight: bold;
+}
+
+.most-popular {
+  background: #2c7a7b;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+/* === Size & Colour Section === */
+.options {
+  margin-top: 15px;
+}
+
+.options-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.options-row label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #555;
+}
+
+.options-row select {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.options-row select:hover, .options-row select:focus {
+  border-color: #2c7a7b;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+}
+
+/* === Footer Section === */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.footer strong {
+  color: #000;
+}
+
+/* === Button Styling === */
+.btn {
+  display: block;
+  width: 100%;
+  background: #2c7a7b;
+  color: #fff;
+  text-align: center;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #246a6c;
+}
+
+/* === Responsive Design === */
+@media (max-width: 600px) {
+  .options-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .options-row label {
+    margin-bottom: 5px;
+  }
+}
