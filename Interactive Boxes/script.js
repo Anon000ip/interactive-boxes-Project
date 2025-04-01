@@ -1,8 +1,8 @@
-/* Bundle selection system - Mike's implementation */
 
 
 
-// Our available packages data
+
+
 
 var bundlesData = [
 
