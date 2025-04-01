@@ -1,25 +1,25 @@
-/* Main stylesheet - v2.1 */
+
 .main-wrapper {
-  max-width: 600px;                   /* Reduced width for consistency */
-  margin: 2rem auto;                   /* Centering with shorthand */
-  padding: 25px;                       /* Simplified padding */
+  max-width: 600px;                   
+  margin: 2rem auto;                 
+  padding: 25px;                    
   background: #fff;
-  border-radius: 8px;                  /* Slightly reduced for softer corners */
+  border-radius: 8px;                
   box-shadow: 0 3px 10px rgba(0,0,0,0.1);
-  font: 400 16px 'Segoe UI', sans-serif; /* Combined font shorthand */
+  font: 400 16px 'Segoe UI', sans-serif; 
 }
 
-/* Title styling */
+
 .page-title {
   text-align: center;
-  margin-bottom: 1.5rem;               /* Removed redundant margin shorthand */
+  margin-bottom: 1.5rem;               
   color: #2c3e50;
   font-weight: 600;
 }
 
-/* Bundle card styling */
+
 .bundle-card {
-  border: 1.5px solid #e0e6ed;         /* Reduced border thickness */
+  border: 1.5px solid #e0e6ed;        
   margin-bottom: 15px;
   padding: 18px;
   border-radius: 7px;
@@ -30,13 +30,13 @@
 .bundle-card:hover,
 .bundle-card.active {
   border-color: #3d9970;
-  background: #f5fcf9;                 /* Combined hover & active styling */
+  background: #f5fcf9;                
 }
 
 .bundle-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;                  /* Simplified alignment */
+  align-items: center;                 
 }
 
 .bundle-name {
@@ -49,23 +49,23 @@
   margin-top: 4px;
 }
 
-/* Popular tag */
+
 .popular-tag {
   background: #3d9970;
   color: #fff;
   padding: 4px 10px;
   border-radius: 12px;
-  font-size: 0.8em;                    /* Reduced font size slightly */
+  font-size: 0.8em;                    
   margin-left: 10px;                    
 }
 
-/* Options styling */
+
 .options-wrapper {
   margin-top: 18px;
 }
 
 .option-row {
-  margin-bottom: 14px;                  /* Reduced margin rules */
+  margin-bottom: 14px;                  
   display: flex;
   align-items: center;
 }
@@ -76,30 +76,30 @@
 }
 
 .select-dropdown {
-  padding: 6px 10px;                    /* Smaller padding for cleaner look */
+  padding: 6px 10px;                   
   margin: 0 6px;
   border: 1px solid #d1d9e3;
   border-radius: 4px;
   min-width: 85px;
 }
 
-/* Footer area */
+
 .checkout-footer {
   display: flex;
-  justify-content: space-between;       /* No change needed */
+  justify-content: space-between;      
   color: #555;
   margin: 25px 0 20px;
 }
 
-/* Button styles */
+
 .primary-btn {
   width: 100%;
-  padding: 12px;                        /* Reduced padding for consistency */
+  padding: 12px;                        
   background: #2c3e50;
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 1em;                       /* Reduced font size */
+  font-size: 1em;                       
   cursor: pointer;
   transition: background 0.2s;
 }
